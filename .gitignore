@@ -1,0 +1,35 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore — KABHI PUSH MAT KARNA
+keystore/
+*.keystore
+*.jks
+*.p12
+
+# Local secrets
+local.secrets.properties
+secrets.properties
+
+# Kotlin
+*.class
+*.kotlin_module
+
+# NDK
+obj/
+libs/
+
+# Test results
+test-results/
