@@ -1,0 +1,40 @@
+# ─── Android ────────────────────────────────────
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ─── KEYSTORE — KABHI PUSH MAT KARNA ────────────
+keystore/*.keystore
+keystore/*.jks
+keystore/*.p12
+keystore/*_b64.txt
+keystore/signing.properties
+local.secrets.properties
+
+# ─── Kotlin ─────────────────────────────────────
+*.class
+*.kotlin_module
+
+# ─── NDK ────────────────────────────────────────
+obj/
+libs/
+
+# ─── Test results ────────────────────────────────
+test-results/
+*.hprof
+
+# ─── Gradle ─────────────────────────────────────
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
